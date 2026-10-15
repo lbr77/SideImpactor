@@ -4,6 +4,15 @@ Browser-based IPA signing and installation. Pair an iOS device over WebUSB, sign
 
 ## Quick Start
 
+Clone this repository to your local machine:
+```bash
+git clone --recurse-submodules https://github.com/lbr77/SideImpactor
+```
+If you already cloned it, simply update submodules instead:
+```bash
+git submodule update --init --recursive
+```
+Finally,
 ```bash
 bun install --ignore-scripts
 bun run dev
